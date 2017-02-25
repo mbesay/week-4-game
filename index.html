@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+	<meta charset="UTF-8">
+	<title>Crystal Collector Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<style type="text/css">
+		img {
+			width: 50px;
+		}
+		.numberToMatch {
+			border: 1px solid black;
+			width: 50px;
+			height: 100px;
+		}
+		.score {
+			border: 1px solid black;
+			width: 50px;
+			height: 100px;
+		}
+
+
+	</style>
+</head>
+<body>
+<h1> CrystalsCollector! </h1>
+
+<div class="instructions">
+<p> You will be given a random number at the start of the game. <br>There are four crystals below. By clicking on a crystal you will ad a specific amount of points to your total score.<br> You will win the game by matching your total score to the random number.<br> The value of each crystal is hidden from you until you click on it. <br>Each time when the game starts, the game will change the values of each crystal.</p>
+</div>
+<div class="numberToMatch">Test</div>
+<div class="scoreBoard">
+	<ul>
+		<li><p id="winlossmessage"></p></li>
+		<li>Wins:<p id="wins"></p></li>
+		<li>Losses:<p id="wins"></p></li>
+	</ul>
+</div>
+<div class="gemPics">
+	<img src="file:///C:/Users/Michelle/Desktop/week-4-game/assets/images/gem1.png" alt="crystal1" class="pic1">
+	<img src="file:///C:/Users/Michelle/Desktop/week-4-game/assets/images/gem2.png" alt="crystal2" class="pic2">
+	<img src="file:///C:/Users/Michelle/Desktop/week-4-game/assets/images/gem3.png" alt="crystal3" class="pic3">
+	<img src="file:///C:/Users/Michelle/Desktop/week-4-game/assets/images/gem4.png" alt="crystal4" class="pic3">
+</div>
+<div>
+	<h3>Your total score is:</h3>
+	<p class="score">Test</p>
+</div>
+
+</body>
+</html>
